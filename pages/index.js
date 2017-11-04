@@ -214,7 +214,7 @@ class Slides extends React.Component{
     }
 componentDidMount(){
 
-    //this.addJsScripts() ); 
+    //this.addJsScripts(); 
 
    
 }
@@ -252,7 +252,7 @@ addJsScripts(){
         document.body.appendChild(scriptEl);
     })
 
- return this.loadSequenceJs();
+ this.loadSequenceJs();
      
 }
 

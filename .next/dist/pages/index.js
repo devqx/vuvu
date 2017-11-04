@@ -135,7 +135,7 @@ var Slides = function (_React$Component) {
         key: 'componentDidMount',
         value: function componentDidMount() {
 
-            //this.addJsScripts() ); 
+            //this.addJsScripts(); 
 
 
         }
@@ -169,7 +169,7 @@ var Slides = function (_React$Component) {
                 document.body.appendChild(scriptEl);
             });
 
-            return this.loadSequenceJs();
+            this.loadSequenceJs();
         }
     }]);
 
